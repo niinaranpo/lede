@@ -98,6 +98,8 @@ jobs:
           name: OpenWrt_firmware
           path: ./bin/targets/
   
+  
+  
 
       - name: Upload release asset
         if: github.event == 'release'
